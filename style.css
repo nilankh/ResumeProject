@@ -78,5 +78,21 @@ h1 {
     background: var(--secondary-color);
     transform: translateX(-50%);
     border-radius: 50%;
-    transition: ;
+    transition: background 0.5s ease-in-out;
+
+}
+
+/*  Arrows base*/
+#timeline div:before {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+/* Right Side arrows */
+#timeline ul li:nth-child(odd) div::before {
+    left: -15px;
 }
