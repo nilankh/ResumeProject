@@ -1,5 +1,25 @@
 :root {
-    --primary-color: #425b84;
+    --primary-color: skyblue;
     --secondary-color: #5b7bb4;
     --max-width: 1100px 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: normal 1rem/1.5 'Arial', sans-serif;
+    background: var(--primary-color);
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+
+#main-header {
+    background: var(--secondary-color);
+}
+.container {
+    max-width: var(--max-width);
 }
