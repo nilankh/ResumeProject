@@ -95,4 +95,7 @@ h1 {
 /* Right Side arrows */
 #timeline ul li:nth-child(odd) div::before {
     left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent var(--secondary-color) transparent transparent;
+
 }
