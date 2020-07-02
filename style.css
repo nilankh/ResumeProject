@@ -1,5 +1,5 @@
 :root {
-    --primary-color: skyblue;
+    --primary-color: #425b84;
     --secondary-color: #5b7bb4;
     --max-width: 1100px 
 }
@@ -13,6 +13,7 @@
 body {
     font: normal 1rem/1.5 'Arial', sans-serif;
     background: var(--primary-color);
+    color: #fff;
     overflow-x: hidden;
     padding-bottom: 50px;
 }
@@ -32,4 +33,25 @@ h1 {
 #timeline ul {
     background: var(--primary-color);
     padding: 50px 0;
+}
+
+/* Create Line */
+#timeline ul li {
+    list-style: none;
+    position: relative;
+    /* ye q kia h q ki we are going to position some of stuff inside of it absolute  */
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #fff;
+
+}
+
+/* Boxes */
+#timeline ul li div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 1rem;
+    background: var(--secondary-color);
 }
