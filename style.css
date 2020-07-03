@@ -113,4 +113,13 @@ h1 {
     #timeline ul li div {
         width: 250px;
     }
+    #timeline ul li:nth-child(even) div {
+        left: -284px;
+    }
+}
+
+@media(max-width: 600px) {
+    #timeline ul li {
+        margin-left: 20px;
+    }
 }
