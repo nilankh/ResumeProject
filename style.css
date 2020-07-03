@@ -107,3 +107,10 @@ h1 {
     border-color: transparent transparent transparent var(--secondary-color);
 
 }
+
+/* Media queries */
+@media(max-width: 900px) {
+    #timeline ul li div {
+        width: 250px;
+    }
+}
