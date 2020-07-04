@@ -62,11 +62,13 @@ h1 {
 /* Right side */
 #timeline ul li:nth-child(odd) div {
     left: 40px;
+    transform: translate(200px, 0);
 }
 
 /* Leftt side */
 #timeline ul li:nth-child(even) div {
     left: -434px;
+    transform: translate(-200px, 0);
 }
 
 /* Dots */
@@ -110,6 +112,13 @@ h1 {
 
 }
 
+/* Show Boxes */
+#timeline ul li.show div {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+
+}
 /* Media queries */
 @media(max-width: 900px) {
     #timeline ul li div {
